@@ -124,3 +124,14 @@ footer .mono{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-tra
 .prose .li{position:relative;padding-left:24px;margin-bottom:12px}
 .prose .li::before{content:"—";position:absolute;left:0;color:var(--iris-dim)}
 .prose blockquote{margin:26px 0;padding-left:20px;border-left:2px solid var(--iris-dim);font-family:var(--display);font-style:italic;color:var(--paper)}
+
+/* списки и таблицы в длинных текстах */
+.prose ul,.prose ol{margin:0 0 20px;padding-left:26px;color:#cfc9be}
+.prose li{margin-bottom:10px}
+.prose ol li::marker,.prose ul li::marker{color:var(--iris-dim)}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:34px 0}
+.prose .tablewrap{overflow-x:auto;margin:26px 0}
+.prose table{border-collapse:collapse;width:100%;font-size:15px}
+.prose th,.prose td{border:1px solid var(--rule);padding:10px 12px;text-align:left;vertical-align:top}
+.prose th{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--iris)}
+.prose a{color:var(--iris);text-decoration:underline;text-underline-offset:3px}
