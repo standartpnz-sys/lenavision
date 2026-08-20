@@ -135,3 +135,9 @@ footer .mono{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-tra
 .prose th,.prose td{border:1px solid var(--rule);padding:10px 12px;text-align:left;vertical-align:top}
 .prose th{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--iris)}
 .prose a{color:var(--iris);text-decoration:underline;text-underline-offset:3px}
+
+/* хештеги и иллюстрации внутри текста */
+.prose .tag{color:var(--iris-dim);font-size:15px;white-space:nowrap}
+.prose figure{margin:28px 0}
+.prose figure img{width:100%;border-radius:2px}
+.prose blockquote a{color:var(--iris)}
